@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plunk Component Example</title>
+    <script
+      src="../plunkComponents.min.js"
+      type="text/javascript"
+      defer
+    ></script>
+    <script
+      src="./recommendedProjectsListExample.js"
+      type="text/javascript"
+      defer
+    ></script>
+    <script src="https://cdn.tailwindcss.com" defer></script>
+  </head>
+
+  <body>
+    <header class="mt-3 mb-5 ml-3 sm:mt-8 sm:ml-16 sm:mb-9">
+      <a href="../index.html">
+        <img
+        class="w-24 h-7 sm:w-32 sm:h-9"
+        src="../assets/logo_color_hrz.svg"
+        alt="plunk-logo"
+      />
+      </a>
+    </header>
+    <div>
+      <div class="container max-w-screen-xl mx-auto px-4 mb-8">
+        <p class="text-[#003960] text-xl sm:text-2xl xl:text-4xl font-bold">Plunk Recommended Projects</p>
+      </div>
+      <div class="container max-w-screen-xl mx-auto px-4">
+        <div class="flex flex-col sm:flex-row border-b border-[BFCDD7] -mx-4 mb-10">
+          <div class="w-full sm:1/2 p-4">
+            <div>
+              <p class="text-[#003960] text-xl sm:text-2xl xl:text-4xl font-bold">Happy path:</p>
+              <p class="text-[#406A88] text-base sm:text-xl">
+              List of recommended projects. Number of recommended projects varies between 1 and 5.
+              </p>
+              <p class="text-[#406A88] text-base sm:text-xl mt-2">
+              'Show more projects' CTA will show all remodel projects for this property.
+              </p>
+            </div>
+          </div>
+
+          <div class="w-full sm:1/2 p-4">
+            <!-- This div will hold the Home Value component -->
+            <div
+              class="plunk-component"
+              data-component-id="projects_list_example_01"
+            ></div>
+            <!-- component end-->
+            <div>
+              <p class="text-[#406A88] text-sm sm:text-lg mt-10">Switch to mobile view to see mobile version</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="container max-w-screen-xl mx-auto px-4">
+        <div class="flex flex-col sm:flex-row border-b border-[BFCDD7] -mx-4 mb-10">
+          <div class="w-full sm:1/2 p-4">
+            <div>
+              <p class="text-[#003960] text-xl sm:text-2xl xl:text-4xl font-bold">No additional projects</p>
+              <p class="text-[#406A88] text-base sm:text-xl">
+               No 'show more projects' CTA when there are only recommended projects.
+              </p>
+            </div>
+          </div>
+
+          <div class="w-full sm:1/2 p-4">
+            <!-- This div will hold the Home Value component with Deep Link CTA-->
+            <div
+              class="plunk-component"
+              data-component-id="projects_list_example_02"
+            ></div>
+            <!-- component end-->
+
+            <p class="text-[#406A88] text-sm sm:text-lg mt-10">Switch to mobile view to see mobile version</p>
+          </div>
+        </div>
+      </div>
+      <div class="container max-w-screen-xl mx-auto px-4">
+        <div class="flex flex-col sm:flex-row -mx-4 mb-10">
+          <div class="w-full sm:1/2 p-4">
+            <div>
+              <p class="text-[#003960] text-xl sm:text-2xl xl:text-4xl font-bold">No projects:</p>
+              <p class="text-[#406A88] text-base sm:text-xl">
+                Error message when there are no recommended projects.
+              </p>
+            </div>
+          </div>
+
+          <div class="w-full sm:1/2 p-4">
+            <!-- This div will hold the Home Value component with Deep Link CTA-->
+            <div
+              class="plunk-component"
+              data-component-id="projects_list_example_03"
+            ></div>
+            <!-- component end-->
+
+            <p class="text-[#406A88] text-sm sm:text-lg mt-10">Switch to mobile view to see mobile version</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center mt-10">
+      &copy; 2022 Plunk. All rights reserved  &#8226 Built with love ❤️
+    </footer>
+  </body>
+</html>

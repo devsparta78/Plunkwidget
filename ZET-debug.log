@@ -1,0 +1,63 @@
+[error] [2023-04-27T19:17:50.919Z] : ✖ Error in parsing CLI command : ReferenceError: app is not defined
+    at Object.<anonymous> (C:\Users\COREi 7  8TH\Documents\Plunk-app\plunkapp\server\index.js:60:1)
+    at Module._compile (node:internal/modules/cjs/loader:1149:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1203:10)
+    at Module.load (node:internal/modules/cjs/loader:1027:32)
+    at Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1051:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.run (C:\Users\COREi 7  8TH\AppData\Roaming\npm\node_modules\zoho-extension-toolkit\lib\commands\run.js:11:5)
+    at Command.<anonymous> (C:\Users\COREi 7  8TH\AppData\Roaming\npm\node_modules\zoho-extension-toolkit\index.js:65:33)
+    at Command.listener (C:\Users\COREi 7  8TH\AppData\Roaming\npm\node_modules\zoho-extension-toolkit\node_modules\commander\index.js:315:8)
+[error] [2023-04-27T21:34:53.007Z] : ✖ Error in parsing CLI command : ReferenceError: app is not defined
+    at Object.<anonymous> (C:\Users\COREi 7  8TH\Documents\Plunk-app\plunkapp\server\index.js:60:1)
+    at Module._compile (node:internal/modules/cjs/loader:1149:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1203:10)
+    at Module.load (node:internal/modules/cjs/loader:1027:32)
+    at Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1051:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.run (C:\Users\COREi 7  8TH\AppData\Roaming\npm\node_modules\zoho-extension-toolkit\lib\commands\run.js:11:5)
+    at Command.<anonymous> (C:\Users\COREi 7  8TH\AppData\Roaming\npm\node_modules\zoho-extension-toolkit\index.js:65:33)
+    at Command.listener (C:\Users\COREi 7  8TH\AppData\Roaming\npm\node_modules\zoho-extension-toolkit\node_modules\commander\index.js:315:8)
+[error] [2023-05-15T19:13:18.750Z] : × Error in parsing CLI command : ReferenceError: app is not defined
+    at Object.<anonymous> (C:\Users\COREi 7  8TH\documents\plunk-app\plunkapp\server\index.js:60:1)
+    at Module._compile (node:internal/modules/cjs/loader:1149:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1203:10)
+    at Module.load (node:internal/modules/cjs/loader:1027:32)
+    at Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1051:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.run (C:\Users\COREi 7  8TH\AppData\Roaming\npm\node_modules\zoho-extension-toolkit\lib\commands\run.js:11:5)
+    at Command.<anonymous> (C:\Users\COREi 7  8TH\AppData\Roaming\npm\node_modules\zoho-extension-toolkit\index.js:65:33)
+    at Command.listener (C:\Users\COREi 7  8TH\AppData\Roaming\npm\node_modules\zoho-extension-toolkit\node_modules\commander\index.js:315:8)
+[error] [2023-05-16T20:12:17.264Z] : × Error in parsing CLI command : Error: Cannot find module './routes/api'
+Require stack:
+- C:\Users\COREi 7  8TH\Documents\Plunk-app\plunkapp\server\index.js
+- C:\Users\COREi 7  8TH\AppData\Roaming\npm\node_modules\zoho-extension-toolkit\lib\commands\run.js
+- C:\Users\COREi 7  8TH\AppData\Roaming\npm\node_modules\zoho-extension-toolkit\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:985:15)
+    at Module._load (node:internal/modules/cjs/loader:833:27)
+    at Module.require (node:internal/modules/cjs/loader:1051:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\COREi 7  8TH\Documents\Plunk-app\plunkapp\server\index.js:70:17)
+    at Module._compile (node:internal/modules/cjs/loader:1149:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1203:10)
+    at Module.load (node:internal/modules/cjs/loader:1027:32)
+    at Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1051:19)
+[error] [2023-05-30T19:01:46.279Z] : × Error in parsing CLI command : Error: Cannot find module './routes/api'
+Require stack:
+- C:\Users\COREi 7  8TH\documents\Plunk-app\plunkapp\server\index.js
+- C:\Users\COREi 7  8TH\AppData\Roaming\npm\node_modules\zoho-extension-toolkit\lib\commands\run.js
+- C:\Users\COREi 7  8TH\AppData\Roaming\npm\node_modules\zoho-extension-toolkit\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:985:15)
+    at Module._load (node:internal/modules/cjs/loader:833:27)
+    at Module.require (node:internal/modules/cjs/loader:1051:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\COREi 7  8TH\documents\Plunk-app\plunkapp\server\index.js:70:17)
+    at Module._compile (node:internal/modules/cjs/loader:1149:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1203:10)
+    at Module.load (node:internal/modules/cjs/loader:1027:32)
+    at Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1051:19)
